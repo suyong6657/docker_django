@@ -25,3 +25,11 @@ $ pipenv shell <br>
 next, added dockerizing information URL
 
 <https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/#nginx>
+
+
+
+- Start web /bin/sh
+<pre><code>docker-compose exec -it container_name /bin/sh</code></pre>
+
+- Start db(postgresql) 
+<pre><code>docker-compose exec -it db psql -U postgres</code></pre>
