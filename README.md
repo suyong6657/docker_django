@@ -33,3 +33,7 @@ next, added dockerizing information URL
 
 - Start db(postgresql) 
 <pre><code>docker-compose exec -it db psql -U postgres</code></pre>
+
+
+
+- docker-compose up -d --build를 한 뒤 모든 container접속의 명령어는 docker run ~ 이 아닌 docker-compose ~ 입니다. 
